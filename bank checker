@@ -1,1 +1,12 @@
-
+name = input("what is your name")
+bank = int(input("What is your bank account?"))
+print(name)
+print(bank)
+budget = int(input("What is your budget?"))
+print(bank >= budget)
+price = int(input("Macbook price?"))
+print(budget >= price) 
+if bank >= budget:
+    print("good")
+else:
+    print("bad!" 
